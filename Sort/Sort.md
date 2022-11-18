@@ -8,7 +8,7 @@
     1. 1회전을 수행하면서, 1번째와 2번째, 2번째와 3번째, 이렇게 마지막 - 1 번째와 마지막을 비교해가며 조건에 맞지 않다면 교환한다.
     2. 1회전이 끝나면, 가장 큰 원소가 제일 뒤로 이동하게 된다. 2회전을 수행할 때는 제일 마지막 원소는 제외되고, 그 중 가장 큰 원소가 끝에서 2번째에 위치하게 된다. 이렇게 회전을 계속 수행하며 정렬해 나가게 된다.
 * 이해가 쉬운 이미지
-    * <img src="https://github.com/GimunLee/tech-refrigerator/raw/master/Algorithm/resources/bubble-sort-001.gif"></img>
+    <img src="https://github.com/GimunLee/tech-refrigerator/raw/master/Algorithm/resources/bubble-sort-001.gif"></img>
     * 출처: https://github.com/GimunLee/tech-refrigerator/blob/master/Algorithm/resources/bubble-sort-001.gif
 * 공간 복잡도: **O(n)**
 * 시간 복잡도: **O(n<sup>2</sup>)**
@@ -29,7 +29,7 @@
 * 2번째 원소부터 시작하여 그 앞(왼쪽)의 원소들과 비교하여 삽입할 위치를 지정한 후, 원소를 뒤로 옮기고 지정된 자리에 자료를 삽입한다
 * 공간 복잡도: **O(n)**
 * 시간 복잡도: **O(n<sup>2</sup>)**
-    * Best: **O(n)*
+    * Best: **O(n)**
         - 이미 정렬되어 있는 경우 O(n)의 시간을 가진다.
     * Avg:  O(n<sup>2</sup>)
     * Worst: O(n<sup>2</sup>)
