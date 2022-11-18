@@ -11,7 +11,7 @@ def binarySearchRecursion(arr, target, start, end):
     else:
         return binarySearchRecursion(arr, target, mid + 1, end)
 
-def binarySearchIterative(arr, target, start, end)
+def binarySearchIterative(arr, target, start, end):
     while start <= end:
         mid = (start + end) // 2
         if arr[mid] == target:
